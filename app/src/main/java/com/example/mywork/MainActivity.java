@@ -6,6 +6,7 @@ import android.app.FragmentTransaction;
 import android.app.FragmentManager;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -14,7 +15,7 @@ import android.widget.LinearLayout;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Fragment weixinFragment=new weixinFragment();
-    private Fragment friendFragment=new friendFragment();
+    private Fragment friendFragment= new friendFragment();
     private Fragment contactFragment=new contactFragment();
     private Fragment configFragment=new configFragment();
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
         linearLayout1=findViewById(R.id.LinearLayout_weixin);

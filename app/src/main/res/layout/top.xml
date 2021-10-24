@@ -43,7 +43,7 @@
 
 
     <LinearLayout
-        android:id="@+id/LinearLayout_contact"
+        android:id="@+id/LinearLayout_friend"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -61,11 +61,11 @@
             tools:srcCompat="@drawable/friend_b" />
 
         <TextView
-            android:id="@+id/textView_contact"
+            android:id="@+id/textView_friend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="新闻"
+            android:text="联系人"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
             tools:layout_conversion_absoluteHeight="19dp"
@@ -77,7 +77,7 @@
 
 
     <LinearLayout
-        android:id="@+id/LinearLayout_friend"
+        android:id="@+id/LinearLayout_contact"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -95,11 +95,11 @@
             tools:srcCompat="@drawable/contact_b" />
 
         <TextView
-            android:id="@+id/textView_friend"
+            android:id="@+id/textView_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="联系人"
+            android:text="新闻"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
             tools:layout_conversion_absoluteHeight="19dp"
@@ -108,7 +108,6 @@
             tools:layout_editor_absoluteY="366dp" />
 
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/LinearLayout_config"
@@ -125,7 +124,7 @@
             tools:layout_conversion_absoluteHeight="0dp"
             tools:layout_conversion_absoluteWidth="411dp"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="549dp"
+            tools:layout_editor_absoluteY="366dp"
             tools:srcCompat="@drawable/config_b" />
 
         <TextView
@@ -139,6 +138,8 @@
             tools:layout_conversion_absoluteHeight="19dp"
             tools:layout_conversion_absoluteWidth="411dp"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="549dp" />
+            tools:layout_editor_absoluteY="366dp" />
 
     </LinearLayout>
+
+</LinearLayout>
